@@ -4,7 +4,7 @@ This is a sample python lambda to do sanction country blocking as a AWS API Gate
 
 # Steps to use
 
-1. Find a service provider of ip address look-up. This example uses a free account from ipstack.com which gives 10000 free lookups per month.
+1. Find a service provider of ip address look-up. This example uses a free account from https://ipstack.com/ which gives 10000 free lookups per month.
 
 2. Create a lambda from scratch with code in lambda\country-checker.py. Create a basic lambda role if needed (that just needs CloudWatch logs CreateLogGroup/CreateLogStream/PutLogEvents permission).
 
